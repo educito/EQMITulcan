@@ -1,6 +1,6 @@
 /*
  * Datos de talleres — Campamentos Escuel@s que me inspiran · Tulcán 2026
- * Horarios, cupos, sedes, facilitadores e instituciones: references/AGENDA DE ACTIVIDADES 1.docx
+ * Horarios, cupos, sedes e instituciones: references/AGENDA DE ACTIVIDADES 1.docx
  * Descripciones e impacto: tomados del mismo taller en el sitio de Orellana 2026.
  * Los talleres marcados con  descripcionPropia: true  no existían en Orellana: su texto es provisional.
  */
@@ -28,7 +28,7 @@
       dirigido: 'Estudiantes de 10.º EGB y un docente por institución',
       cupos: '6 estudiantes y 1 docente por institución · 8 equipos · 56 participantes',
       participantes: 56, estudiantes: true, publico: ['estudiantes', 'docentes'],
-      lugar: 'UPEC · Aula 1', apoyo: ['MSc. Mayra Calpa', 'MSc. Carlos Méndez'],
+      lugar: 'UPEC · Aula 1',
       instituciones: ['UE Huaca', 'UE San Antonio de Padua', 'UE Cristo Rey', 'UE Luciano Coral', 'UE Alejandro R. Mera', 'UE Tulcán', 'UE Bolívar', 'UE Isaac Acosta'],
       grupos: unico(CAMPAMENTO_EST)
     },
@@ -45,7 +45,7 @@
       dirigido: 'Estudiantes de 2.º de Bachillerato y un docente por institución',
       cupos: '5 estudiantes y 1 docente por institución · 5 equipos · 30 participantes',
       participantes: 30, estudiantes: true, publico: ['estudiantes', 'docentes'],
-      lugar: 'UPEC · Aula 2', apoyo: ['MSc. Esther Yar', 'MSc. Marco Noroña'],
+      lugar: 'UPEC · Aula 2',
       instituciones: ['UE Vicente Fierro', 'UE Bolívar', 'UE Luciano Coral Morillo', 'UE César Antonio Mosquera', 'UE Tulcán'],
       grupos: unico(CAMPAMENTO_EST)
     },
@@ -62,7 +62,7 @@
       dirigido: 'Estudiantes de 8.º EGB y un docente por institución',
       cupos: '6 estudiantes y 1 docente por institución · 56 participantes',
       participantes: 56, estudiantes: true, publico: ['estudiantes', 'docentes'],
-      lugar: 'U.E. Tulcán · Biblioteca / Auditorio', apoyo: ['MSc. Mayra Meneses', 'MSc. Emily Delgado'],
+      lugar: 'U.E. Tulcán · Biblioteca / Auditorio',
       instituciones: ['UE Vicente Fierro', 'UE Luciano Coral Morillo', 'UE Hno. Miguel La Salle', 'UE San Antonio de Padua', 'UE Cristóbal Colón', 'UE Tulcán', 'UE Bolívar', 'UE Isaac Acosta'],
       grupos: unico(CAMPAMENTO_EST)
     },
@@ -79,7 +79,7 @@
       dirigido: 'Docentes (6 por cada subnivel)',
       cupos: '24 docentes · se entregará el kit de robótica',
       participantes: 24, estudiantes: false, publico: ['docentes'],
-      lugar: 'UPEC · Aula 3', apoyo: ['MSc. Nancy Tobar', 'MSc. Nubia Rosero'],
+      lugar: 'UPEC · Aula 3',
       instituciones: ['UE Vicente Fierro'],
       grupos: unico(CAMPAMENTO_DOC)
     },
@@ -93,7 +93,7 @@
       dirigido: 'Docentes (4 por institución)',
       cupos: '4 docentes por institución · 80 participantes',
       participantes: 80, estudiantes: false, publico: ['docentes'],
-      lugar: 'U.E. San Antonio de Padua', apoyo: ['MSc. María José Mesa', 'MSc. Saúl Crucerira'],
+      lugar: 'U.E. San Antonio de Padua',
       instituciones: ['UE César Antonio Mosquera', 'UE Mariscal Sucre', 'UE Carlos Romo Dávila', 'UE Santa Mariana de Jesús', 'UE Huaca', 'UE Tufiño', 'UE San Antonio de Padua', 'UE Hno. Miguel La Salle', 'UE Tulcán', 'UE Bolívar', 'UE Isaac Acosta', 'UE Cristóbal Colón', 'UE Luciano Coral', 'UE Carmelo', 'UE Sagrado Corazón de Jesús', 'UE Cristo Rey', 'UE Consejo Provincial', 'UE Alejandro R. Mera', 'UE Sucre N.º 1', 'UE Gran Colombia'],
       grupos: unico(CAMPAMENTO_DOC)
     },
@@ -108,7 +108,7 @@
       dirigido: 'Estudiantes de 10.º EGB y un docente por institución',
       cupos: '6 estudiantes y 1 docente por institución · 5 equipos · 35 participantes',
       participantes: 35, estudiantes: true, publico: ['estudiantes', 'docentes'],
-      lugar: 'UPEC · Aula 4', apoyo: ['MSc. Haidy Castillo', 'MSc. Diana Rosero'],
+      lugar: 'UPEC · Aula 4',
       instituciones: ['UE Vicente Fierro', 'UE Tulcán', 'UE Bolívar', 'UE Hno. Miguel La Salle', 'UE Luciano Coral'],
       grupos: unico(CAMPAMENTO_EST)
     },
@@ -120,7 +120,7 @@
       dirigido: 'Docentes',
       cupos: '24 docentes · se entregará el kit de robot de pensamiento computacional',
       participantes: 24, estudiantes: false, publico: ['docentes'],
-      lugar: 'UPEC · Aula 5', apoyo: ['MSc. Janneth Calán', 'MSc. Antony Villarreal'],
+      lugar: 'UPEC · Aula 5',
       instituciones: ['UE Vicente Fierro'],
       nota: 'Incluye 10 docentes de la misma institución del taller de Arado.',
       grupos: unico(CAMPAMENTO_DOC)
@@ -136,7 +136,7 @@
       dirigido: 'Docentes de EGB, subniveles elemental y media',
       cupos: '5 docentes por institución · 50 participantes',
       participantes: 50, estudiantes: false, publico: ['docentes'],
-      lugar: 'UPEC · Laboratorio 2', apoyo: ['MSc. Diana Home', 'MSc. Andrea Ordóñez'],
+      lugar: 'UPEC · Laboratorio 2',
       instituciones: ['UE César Antonio Mosquera', 'UE Mariscal Sucre', 'UE Carlos Romo Dávila', 'UE Santa Mariana de Jesús', 'UE Huaca', 'UE Tufiño', 'UE Luciano Coral', 'UE Sagrado Corazón', 'UE Cristo Rey', 'UE Consejo Provincial'],
       grupos: [{ nombre: 'Turnos', detalle: 'Horarios disponibles', sesiones: [
         S('Mar 24', '09:00 – 12:00'), S('Mié 25', '09:00 – 12:00'), S('Mié 25', '13:00 – 16:00'),
@@ -151,7 +151,7 @@
       dirigido: 'Autoridades: rectores o vicerrectores',
       cupos: '2 grupos de 30 autoridades · 60 participantes',
       participantes: 60, estudiantes: false, publico: ['autoridades'],
-      lugar: 'UPEC · Laboratorio 1', apoyo: ['MSc. Tamara Garrido', 'MSc. Valeria Pérez'],
+      lugar: 'UPEC · Laboratorio 1',
       grupos: [
         { nombre: 'Grupo 1', detalle: '30 autoridades', sesiones: [S('Mar 24', '14:00 – 16:00')],
           instituciones: ['UE San Antonio de Padua', 'UE Hno. Miguel La Salle', 'UE Tulcán', 'UE Bolívar', 'UE Isaac Acosta', 'UE Cristóbal Colón', 'UE Vicente Fierro', 'UE César Antonio Mosquera', 'UE Mariscal Sucre', 'UE Carlos Romo Dávila', 'UE Santa Mariana de Jesús', 'UE Huaca', 'UE Tufiño', 'UE Manuel María Velasco', 'UE María Auxiliadora'] },
@@ -167,7 +167,7 @@
       dirigido: 'Docentes de varias instituciones (no personal administrativo ni DECE)',
       cupos: '10 docentes por institución · 4 grupos de 50 · 200 participantes',
       participantes: 200, estudiantes: false, publico: ['docentes'],
-      lugar: 'UPEC · Aula 6', apoyo: ['MSc. Diana Arellano', 'MSc. Camila Sandoval'],
+      lugar: 'UPEC · Aula 6',
       grupos: [
         { nombre: 'Grupo 1', detalle: '50 docentes', sesiones: [S('Mar 24', '08:30 – 11:00')], instituciones: ['UE César Antonio Mosquera', 'UE Mariscal Sucre', 'UE Carlos Romo Dávila', 'UE Santa Mariana de Jesús', 'UE Huaca'] },
         { nombre: 'Grupo 2', detalle: '50 docentes', sesiones: [S('Mar 24', '13:00 – 15:00')], instituciones: ['UE Sucre N.º 1', 'UE Sagrado Corazón', 'UE Vicente Fierro', 'UE María Auxiliadora', 'UE Cristóbal Colón'] },
@@ -183,7 +183,7 @@
       dirigido: 'Docentes',
       cupos: '5 docentes por institución · 5 grupos de 25 · 120 participantes',
       participantes: 120, estudiantes: false, publico: ['docentes'],
-      lugar: 'UPEC · Laboratorio 3', apoyo: [],
+      lugar: 'UPEC · Laboratorio 3',
       grupos: [
         { nombre: 'Grupo 1', detalle: '25 docentes', sesiones: [S('Mar 24', '09:00 – 11:00')], instituciones: ['UE César Antonio Mosquera', 'UE Mariscal Sucre', 'UE Carlos Romo Dávila', 'UE Santa Mariana de Jesús', 'UE Huaca'] },
         { nombre: 'Grupo 2', detalle: '25 docentes', sesiones: [S('Mar 24', '14:00 – 16:00')], instituciones: ['UE Tufiño', 'UE San Antonio de Padua', 'UE Hno. Miguel La Salle', 'UE Tulcán', 'UE Bolívar'] },
@@ -203,7 +203,7 @@
       dirigido: 'Estudiantes de 7.º EGB (un solo curso) y su docente',
       cupos: '1 curso con su docente · 25 participantes',
       participantes: 25, estudiantes: true, publico: ['estudiantes', 'docentes'],
-      lugar: 'U.E. Consejo Provincial', apoyo: [],
+      lugar: 'U.E. Consejo Provincial',
       instituciones: ['UE Consejo Provincial'],
       grupos: [{ nombre: 'Grupo único', detalle: 'Asiste ambos días', sesiones: [S('Mar 24', '07:30 – 12:30'), S('Jue 26', '07:30 – 12:30')] }]
     },
@@ -218,7 +218,7 @@
       dirigido: 'Estudiantes de 5.º EGB (un solo curso) y su docente',
       cupos: '1 curso con su docente · 25 participantes',
       participantes: 25, estudiantes: true, publico: ['estudiantes', 'docentes'],
-      lugar: 'U.E. Cristóbal Colón', apoyo: [],
+      lugar: 'U.E. Cristóbal Colón',
       instituciones: ['UE Cristóbal Colón'],
       grupos: [{ nombre: 'Grupo único', detalle: 'Una jornada', sesiones: [S('Mié 25', '07:30 – 12:30')] }]
     },
@@ -232,7 +232,7 @@
       dirigido: 'Docentes (5 por institución)',
       cupos: '2 grupos de 25 docentes · 50 participantes',
       participantes: 50, estudiantes: false, publico: ['docentes'],
-      lugar: 'UPEC · Aula 7', apoyo: [],
+      lugar: 'UPEC · Aula 7',
       grupos: [
         { nombre: 'Grupo 1', detalle: '25 docentes', sesiones: [S('Mar 24', '14:00 – 17:00')], instituciones: ['UE San Antonio de Padua', 'UE Hno. Miguel La Salle', 'UE Tulcán', 'UE Bolívar', 'UE Isaac Acosta'] },
         { nombre: 'Grupo 2', detalle: '25 docentes', sesiones: [S('Jue 26', '14:00 – 17:00')], instituciones: ['UE Cristóbal Colón', 'UE Consejo Provincial', 'UE Alejandro R. Mera', 'UE Sucre N.º 1', 'UE Sagrado Corazón'] }

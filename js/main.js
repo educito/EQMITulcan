@@ -99,7 +99,6 @@
     w.append(tagRow(t), h);
     var m = el('div', 'm-meta');
     m.append(meta('Dirigido a', t.dirigido), meta('Cupos', t.cupos), meta('Lugar', t.lugar));
-    if (t.apoyo && t.apoyo.length) m.append(meta('Facilitadores', t.apoyo.join(' · ')));
     w.append(m);
     t.descripcion.forEach(function (p) { w.append(el('p', '', p)); });
     if (t.impacto) { var i = el('p', 'm-impact'); i.append(el('b', '', 'Impacto en la educación'), document.createTextNode(t.impacto)); w.append(i); }
